@@ -252,6 +252,13 @@ h1 {
   font-size: 1.2rem;
 }
 
+.namedev{
+  margin: 30px;
+  font-size: 20px;
+  color: green;
+  margin-bottom: 0;
+}
+
 /* ANIMATIONS */
 @keyframes float {
 
@@ -291,5 +298,9 @@ h1 {
     .birthday-header h2 {
         font-size: 1.2rem;
         /* Título levemente menor no celular */
+    }
+    .namedev{
+      font-size: 15px;
+      color: #fff;
     }
 }
