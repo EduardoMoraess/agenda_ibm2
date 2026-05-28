@@ -1,6 +1,7 @@
 import './App.css';
 import logoIBM from './assets/logoIBM.png';
 import AgendaCard from './compenents/AgendaCard';
+import Footer from './compenents/Footer';
 import InfoSection from './compenents/InfoSection';
 
 function App() {
@@ -74,6 +75,8 @@ function App() {
         titulo="Pedidos de Oração"
         itens={pedidosOracao}
       />
+
+      <Footer/>
     </div>
   );
 }
