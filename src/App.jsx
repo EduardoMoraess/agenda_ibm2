@@ -7,23 +7,23 @@ import InfoSection from './compenents/InfoSection';
 function App() {
   // Dados da Agenda
   const agendaData = [
-    { dataDay: "terca", hora: "19:00h", dia: "Terça-feira", titulo: "Doutrina: Mis. Jailda", diretor: "Francisca" },
-    { dataDay: "quarta", hora: "15:30h", dia: "Quarta-feira", titulo: "🙏 Culto de Oração", diretor: "Dalvinha" },
-    { dataDay: "quinta", hora: "19:00h", dia: "Quinta-feira", titulo: "Testemunho da irmã Coca. Toda a igreja está convidada" },
-    { dataDay: "sexta", hora: "19:30h", dia: "Sexta-feira", titulo: "🔥 Culto de Oração", diretor: "Isabele" },
+    { dataDay: "terca", hora: "19:00h", dia: "Terça-feira", titulo: "Doutrina: Mis. Jailda", diretor: "Zenaide" },
+    { dataDay: "quarta", hora: "15:30h", dia: "Quarta-feira", titulo: "🙏 Culto de Oração", diretor: "Mis. Jailda" },
+    { dataDay: "quinta", hora: "19:00h", dia: "Quinta-feira", titulo: "Reunião dos Minsisterio Masculino e Feminino" },
+    { dataDay: "sexta", hora: "19:30h", dia: "Sexta-feira", titulo: "🔥 Culto de Oração", diretor: "Mis. Jilda", louvor: "Zenaide" },
     { dataDay: "sabado", hora: "19:30h", dia: "Sábado", titulo: "Culto Jovem" },
     {
       dataDay: "domingo", hora: "9:00h", dia: "Domingo - Manhã", titulo: "EBD", featured: true,
       extras: [
-        { label: "Dir", valor: "Mis. Jailda" },
+        { label: "Dir", valor: "Alex" },
         { label: "Estudo/Templo", valor: "Júnior" },
         { label: "Discipulado", valor: "Mis. Jailda" }
       ]
     },
     {
-      dataDay: "domingo-noite", hora: "19:00h", dia: "Domingo - Noite", titulo: "Culto de Missões (DIP)", featured: true,
+      dataDay: "domingo-noite", hora: "19:00h", dia: "Domingo - Noite", titulo: "Culto de Celebração", featured: true,
       extras: [
-        { label: "Dir", valor: "Dir. Minist. Jovem" },
+        { label: "Dir", valor: "Dir. Minist. Feminino" },
         { label: "Mensagem", valor: "Mis. Jailda" }
       ]
     },
@@ -31,10 +31,8 @@ function App() {
 
   const aniversariantes = [
     // Dias dos aniversarios das pessoas da igreja
-    { destaque: "01", texto: "Mis.Jailda Magalhães" },
-    { destaque: "03", texto: "Thalita" },
-    { destaque: "23", texto: "Marluce" },
-    { destaque: "29", texto: "Ana Josefa" },
+    { destaque: "01", texto: "Yasmin e Mariana" },
+    { destaque: "14", texto: "Obreiro Jorge" },
   ];
 
   const pedidosOracao = [
@@ -56,7 +54,7 @@ function App() {
         </div>
         <h1>IBM do Ipsep</h1>
         <p className="subtitle">Agenda Semanal</p>
-        <div className="date-badge">25/05 a 31/05</div>
+        <div className="date-badge">01/06 a 07/06</div>
       </header>
 
       <main className="container">
@@ -68,7 +66,7 @@ function App() {
       </main>
 
       <InfoSection
-        titulo="Aniversariantes do Mês de Maio"
+        titulo="Aniversariantes do Mês de Junho"
         icone="🎂"
         itens={aniversariantes}
       />
