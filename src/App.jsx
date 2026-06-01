@@ -1,8 +1,8 @@
 import './App.css';
 import logoIBM from './assets/logoIBM.png';
-import AgendaCard from './compenents/AgendaCard';
-import Footer from './compenents/Footer';
-import InfoSection from './compenents/InfoSection';
+import AgendaCard from './components/AgendaCard';
+import Footer from './components/Footer';
+import InfoSection from './components/InfoSection';
 
 function App() {
   // Dados da Agenda
