@@ -30,6 +30,7 @@ function App() {
   ];
 
   const aniversariantes = [
+    // Dias dos aniversarios das pessoas da igreja
     { destaque: "01", texto: "Mis.Jailda Magalhães" },
     { destaque: "03", texto: "Thalita" },
     { destaque: "23", texto: "Marluce" },
@@ -37,6 +38,7 @@ function App() {
   ];
 
   const pedidosOracao = [
+    // Pedidos de oração
     { destaque: "🇧🇷", texto: "Brasil" },
     { destaque: "👨‍👩‍👦‍👦", texto: "Familia" },
     { destaque: "📖", texto: "Pastores e Missionarios" },
