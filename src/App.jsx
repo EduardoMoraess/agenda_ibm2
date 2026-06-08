@@ -7,15 +7,15 @@ import InfoSection from './components/InfoSection';
 function App() {
   // Dados da Agenda
   const agendaData = [
-    { dataDay: "terca", hora: "19:00h", dia: "Terça-feira", titulo: "Doutrina: Mis. Jailda", diretor: "Zenaide" },
-    { dataDay: "quarta", hora: "15:30h", dia: "Quarta-feira", titulo: "🙏 Culto de Oração", diretor: "Mis. Jailda" },
-    { dataDay: "quinta", hora: "19:00h", dia: "Quinta-feira", titulo: "Reunião dos Minsisterio Masculino e Feminino" },
-    { dataDay: "sexta", hora: "19:30h", dia: "Sexta-feira", titulo: "🔥 Culto de Oração", diretor: "Mis. Jilda", louvor: "Zenaide" },
-    { dataDay: "sabado", hora: "19:30h", dia: "Sábado", titulo: "Culto Jovem" },
+    { dataDay: "terca", hora: "19:00h", dia: "Terça-feira", titulo: "Doutrina: Mis. Jailda", diretor: "Mazinha" },
+    { dataDay: "quarta", hora: "15:30h", dia: "Quarta-feira", titulo: "🙏 Culto de Oração", diretor: "Mis.Jailda" },
+    { dataDay: "quinta", hora: "19:00h", dia: "Quinta-feira", titulo: "Ensaio dos ministérios masculino e feminino" },
+    { dataDay: "sexta", hora: "19:30h", dia: "Sexta-feira", titulo: "🔥 Culto de Oração", diretor: "Dc° Márcio ", louvor: "Zenaide" },
+    { dataDay: "sabado", hora: "19:30h", dia: "Sábado", titulo: "Não haverá culto Jovem " },
     {
       dataDay: "domingo", hora: "9:00h", dia: "Domingo - Manhã", titulo: "EBD", featured: true,
       extras: [
-        { label: "Dir", valor: "Alex" },
+        { label: "Dir", valor: "Zenaide" },
         { label: "Estudo/Templo", valor: "Júnior" },
         { label: "Discipulado", valor: "Mis. Jailda" }
       ]
@@ -23,7 +23,7 @@ function App() {
     {
       dataDay: "domingo-noite", hora: "19:00h", dia: "Domingo - Noite", titulo: "Culto de Celebração", featured: true,
       extras: [
-        { label: "Dir", valor: "Dir. Minist. Feminino" },
+        { label: "Dir", valor: "Minist./Evangelismo " },
         { label: "Mensagem", valor: "Mis. Jailda" }
       ]
     },
@@ -54,7 +54,7 @@ function App() {
         </div>
         <h1>IBM do Ipsep</h1>
         <p className="subtitle">Agenda Semanal</p>
-        <div className="date-badge">01/06 a 07/06</div>
+        <div className="date-badge">08/06 a 14/06</div>
       </header>
 
       <main className="container">
