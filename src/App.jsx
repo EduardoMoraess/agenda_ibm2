@@ -21,10 +21,10 @@ function App() {
       ]
     },
     {
-      dataDay: "domingo-noite", hora: "19:00h", dia: "Domingo - Noite", titulo: "Culto de Celebração", featured: true,
+      dataDay: "domingo-noite", hora: "19:00h", dia: "Domingo - Noite", titulo: "Culto de Ceia+ Missões", featured: true,
       extras: [
         { label: "Dir", valor: "Minist./Masculino" },
-        { label: "Mensagem", valor: "Mis. Jailda" }
+        { label: "Mensagem", valor: "Pr. Mateus." }
       ]
     },
   ];
