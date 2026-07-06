@@ -7,25 +7,24 @@ import InfoSection from './components/InfoSection';
 function App() {
   // Dados da Agenda
   const agendaData = [
-    { dataDay: "terca", hora: "19:30h", dia: "Terça-feira", titulo: "Estudo: Mis. Jailda", },
-    { dataDay: "quarta", hora: "15:30h", dia: "Quarta-feira", titulo: "🙏 Culto de Oração", diretor: "Mis. Jailda " },
-    { dataDay: "quinta", hora: "19:00h", dia: "Quinta-feira", titulo: "Ensaio com os ministerios Masc. e Fem para o aniversario" },
-    { dataDay: "sexta", hora: "19:30h", dia: "Sexta-feira", titulo: "🔥 Culto de Oração", diretor: "Isabele", louvor: "Zenaide" },
-    { dataDay: "sabado", hora: "19:30h", dia: "Sábado", titulo: "Aniversario dos ministerios masculino e feminino", diretor: "Mis. Jailda", 
-      diretor1: "Pastor Helder" },
+    { dataDay: "terca", hora: "19:30h", dia: "Terça-feira", titulo: "Estudo: Mis. Jailda", diretor: "Francisca" },
+    { dataDay: "quarta", hora: "15:30h", dia: "Quarta-feira", titulo: "🙏 Culto de Oração", diretor: "Dalvinha " },
+    { dataDay: "quinta", hora: "19:00h", dia: "Quinta-feira", titulo: "Reunião com os ministerios Masc. e Fem." },
+    { dataDay: "sexta", hora: "19:30h", dia: "Sexta-feira", titulo: "🔥 Culto de Oração", diretor: "Dc° Márcio", louvor: "Zenaide" },
+    { dataDay: "sabado", hora: "19:30h", dia: "Sábado", titulo: "Culto Jovem", matutino: "6:00h - Matutino" },
     {
-      dataDay: "domingo", hora: "9:00h", dia: "Domingo - Manhã", titulo: "Ceia e batismo na Sede", featured: true
-      /*extras: [
-        { label: "Dir", valor: "Dalvinha" },
-        { label: "Estudo/Templo", valor: "Júnior" },
-        { label: "Discipulado", valor: "Mis. Jailda" }
-      ]*/
+      dataDay: "domingo", hora: "9:00h", dia: "Domingo - Manhã", titulo: "EBD", featured: true,
+      extras: [
+        { label: "Dir", valor: " Alex" },
+        { label: "Estudo/Templo", valor: "Mis. Jailda" },
+        { label: "Discipulado", valor: "Dc. Márcio " }
+      ]
     },
     {
-      dataDay: "domingo-noite", hora: "19:00h", dia: "Domingo - Noite", titulo: "Culto de aniversário ", featured: true,
+      dataDay: "domingo-noite", hora: "19:00h", dia: "Domingo - Noite", titulo: "Culto de Celebração", featured: true,
       extras: [
-        { label: "Dir", valor: "Sandro" },
-        { label: "Mensagem", valor: "Pr. Mateus" }
+        { label: "Dir", valor: "Ministério Jovem" },
+        { label: "Mensagem", valor: "Obreiro Jorge" }
       ]
     },
   ];
@@ -55,7 +54,7 @@ function App() {
         </div>
         <h1>IBM do Ipsep</h1>
         <p className="subtitle">Agenda Semanal</p>
-        <div className="date-badge">29/06 a 05/07</div>
+        <div className="date-badge">06/07 a 12/07</div>
       </header>
 
       <main className="container">
@@ -66,11 +65,11 @@ function App() {
         </div>
       </main>
 
-      <InfoSection
+      {/*<InfoSection
         titulo="Aniversariantes do Mês de Junho"
         icone="🎂"
         itens={aniversariantes}
-      />
+      />*/}
 
       <InfoSection
         titulo="Pedidos de Oração"
