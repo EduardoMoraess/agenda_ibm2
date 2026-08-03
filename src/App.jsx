@@ -7,34 +7,35 @@ import InfoSection from './components/InfoSection';
 function App() {
   // Dados da Agenda
   const agendaData = [
-    { dataDay: "terca", hora: "19:30h", dia: "Terça-feira", titulo: "Estudo: Mis. Jailda", diretor: "Francisca" },
-    { dataDay: "quarta", hora: "15:30h", dia: "Quarta-feira", titulo: "🙏 Culto de Oração", diretor: "Dalvinha" },
-    { dataDay: "quinta", hora: "19:00h", dia: "Quinta-feira", titulo: "Culto evangelistico na casa de passagem" },
-    { dataDay: "sexta", hora: "19:30h", dia: "Sexta-feira", titulo: "🔥 Culto de Oração", diretor: "Mis. Jailda", louvor: "Zenaide" },
+    { dataDay: "terca", hora: "19:30h", dia: "Terça-feira", titulo: "Estudo: Mis. Jailda", diretor: "Mazinha" },
+    { dataDay: "quarta", hora: "15:30h", dia: "Quarta-feira", titulo: "🙏 Culto de Oração",reuniao: "Reunião de oração na IBM Malhada do Juá", 
+      diretor: "Mis. Jailda" },
+    { dataDay: "quinta", hora: "19:00h", dia: "Quinta-feira", titulo: "Reunião de minist. Masculino e Feminino" },
+    { dataDay: "sexta", hora: "19:30h", dia: "Sexta-feira", titulo: "🔥 Culto de Oração", diretor: "Isabele", louvor: "Zenaide" },
     { dataDay: "sabado", hora: "19:30h", dia: "Sábado", titulo: "Culto Jovem", matutino: "6:00h - Matutino" },
     {
-      dataDay: "domingo", hora: "9:00h", dia: "Domingo - Manhã", titulo: "Culto de Ceia na sede", featured: true,
-      /*extras: [
+      dataDay: "domingo", hora: "9:00h", dia: "Domingo - Manhã", titulo: "EBD", featured: true,
+      extras: [
         { label: "Dir", valor: "Zenaide" },
+        {label: "Homenagem ao dia dos pais", valor:"Dir. Aninha/Jovens"},
         { label: "Estudo/Templo", valor: "Junior" },
         { label: "Discipulado", valor: "Mis. Jailda " }
-      ]*/
+      ]
     },
     {
       dataDay: "domingo-noite", hora: "19:00h", dia: "Domingo - Noite", titulo: "Culto de Celebração", featured: true,
       extras: [
-        { label: "Dir", valor: "Ministério Masculino" },
-        { label: "Mensagem", valor: "Obreiro Jorge" }
+        { label: "Dir", valor: "Ministerio Feminino" },
+        { label: "Mensagem", valor: "Mis. Jailda" }
       ]
     },
-  ];
+  ]
 
   const aniversariantes = [
     // Dias dos aniversarios das pessoas da igreja
-    { destaque: "03", texto: "Vanusia" },
-    { destaque: "12", texto: "Dalvinha" },
-    { destaque: "17", texto: "Isabelle" },
-    { destaque: "24", texto: "Vitoria" },
+    { destaque: "06", texto: "Mazinha" },
+    { destaque: "10", texto: "Italo" },
+    { destaque: "17", texto: "Natalia" },
   ];
 
   const pedidosOracao = [
@@ -56,7 +57,7 @@ function App() {
         </div>
         <h1>IBM do Ipsep</h1>
         <p className="subtitle">Agenda Semanal</p>
-        <div className="date-badge">27/07 a 02/08</div>
+        <div className="date-badge">03/08 a 09/08</div>
       </header>
 
       <main className="container">
@@ -68,7 +69,7 @@ function App() {
       </main>
 
       <InfoSection
-        titulo="Aniversariantes do Mês de Julho"
+        titulo="Aniversariantes do Mês de Agosto"
         icone="🎂"
         itens={aniversariantes}
       />
