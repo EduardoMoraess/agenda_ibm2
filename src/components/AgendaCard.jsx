@@ -1,4 +1,4 @@
-const AgendaCard = ({ dia, hora, titulo, diretor, extras, featured, dataDay,louvor, matutino, reuniao }) => {
+const AgendaCard = ({ dia, hora, titulo, diretor, extras, featured, dataDay,louvor, matutino}) => {
     return (
         <section className={`card ${featured ? 'featured' : ''}`} data-day={dataDay}>
             <div className="card-time">{hora}</div>
@@ -7,7 +7,6 @@ const AgendaCard = ({ dia, hora, titulo, diretor, extras, featured, dataDay,louv
                 <h2>{dia}</h2>
                 <h3>{titulo}</h3>
                 <h3>{matutino}</h3>
-                <p>{reuniao}</p>
 
                 {diretor && (
                     <p><strong>Dir.</strong> {diretor}</p>
