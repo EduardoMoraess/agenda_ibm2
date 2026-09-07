@@ -8,7 +8,7 @@ function App() {
   // Dados da Agenda
   const agendaData = [
     { dataDay: "terca", hora: "19:30h", dia: "Terça-feira", titulo: "Estudo: Mis. Jailda", diretor: "Dalvinha" },
-    { dataDay: "quarta", hora: "15:30h", dia: "Quarta-feira", titulo: "🙏 Culto de Oração", diretor: "Mis.Jailda" },
+    { dataDay: "quarta", hora: "15:30h", dia: "Quarta-feira", titulo: "🙏 Culto de Oração", diretor: " Francisca" },
     { dataDay: "quinta", hora: "19:00h", dia: "Quinta-feira", titulo: "Oração e ensaio com os minist. Masculino Feminino " },
     { dataDay: "sexta", hora: "19:30h", dia: "Sexta-feira", titulo: "Culto de Oração", diretor:" Dc° Márcio", louvor: "Zenaide e Leticia" },
     { dataDay: "sabado", hora: "19:30h", dia: "Sábado", matutino: "6:00h - Matutino" },
