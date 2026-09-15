@@ -7,23 +7,23 @@ import InfoSection from './components/InfoSection';
 function App() {
   // Dados da Agenda
   const agendaData = [
-    { dataDay: "terca", hora: "19:30h", dia: "Terça-feira", titulo: "Estudo: Mis. Jailda", diretor: "Dalvinha" },
-    { dataDay: "quarta", hora: "15:30h", dia: "Quarta-feira", titulo: "🙏 Culto de Oração", diretor: " Francisca" },
+    { dataDay: "terca", hora: "19:30h", dia: "Terça-feira", titulo: "Estudo: Mis. Jailda", diretor: "Mis. Jailda" },
+    { dataDay: "quarta", hora: "15:30h", dia: "Quarta-feira", titulo: "🙏 Culto de Oração", diretor: "Mis. Jailda" },
     { dataDay: "quinta", hora: "19:00h", dia: "Quinta-feira", titulo: "Oração e ensaio com os minist. Masculino Feminino " },
-    { dataDay: "sexta", hora: "19:30h", dia: "Sexta-feira", titulo: "Culto de Oração", diretor:" Dc° Márcio", louvor: "Zenaide e Leticia" },
+    { dataDay: "sexta", hora: "19:30h", dia: "Sexta-feira", titulo: "Culto de Oração", diretor:" Dc° Márcio ", louvor: "Zenaide e Leticia" },
     { dataDay: "sabado", hora: "19:30h", dia: "Sábado", matutino: "6:00h - Matutino" },
     {
       dataDay: "domingo", hora: "9:00h", dia: "Domingo - Manhã", titulo: "EBD", featured: true,
       extras: [
-        { label: "Dir", valor: "Alex" },
+        { label: "Dir", valor: "Alex " },
         { label: "Estudo/Templo", valor: "Junior" },
         { label: "Discipulado", valor: "Mis. Jailda " }
       ]
     },
     {
-      dataDay: "domingo-noite", hora: "19:00h", dia: "Domingo - Noite", titulo: "Culto de Missões", featured: true,
+      dataDay: "domingo-noite", hora: "19:00h", dia: "Domingo - Noite", titulo: "Culto de Celebração", featured: true,
       extras: [
-        { label: "Dir", valor: "Minist/Jovem" },
+        { label: "Dir", valor: " Minist/Evange." },
         { label: "Mensagem", valor: " Mis. Jailda" }
       ]
     },
@@ -55,7 +55,7 @@ function App() {
         </div>
         <h1>IBM do Ipsep</h1>
         <p className="subtitle">Agenda Semanal</p>
-        <div className="date-badge">07/09 a 13/09</div>
+        <div className="date-badge">14/09 a 20/09</div>
       </header>
 
       <main className="container">
