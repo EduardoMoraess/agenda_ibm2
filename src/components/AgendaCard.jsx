@@ -1,4 +1,4 @@
-const AgendaCard = ({ dia, hora, titulo, diretor, extras, featured, dataDay,louvor, matutino, recado}) => {
+const AgendaCard = ({ dia, hora, titulo, diretor, extras, featured, dataDay,louvor, matutino, recado, mensagem}) => {
     return (
         <section className={`card ${featured ? 'featured' : ''}`} data-day={dataDay}>
             <div className="card-time">{hora}</div>
@@ -14,6 +14,10 @@ const AgendaCard = ({ dia, hora, titulo, diretor, extras, featured, dataDay,louv
                 )}
                 {louvor && (
                     <p><strong>Louvor:</strong>{louvor}</p>
+                )}
+
+                {mensagem && (
+                  <p><strong>Mensagem:</strong>{mensagem}</p>
                 )}
 
                 {/* Mapeia detalhes extras (como os de domingo) caso existam */}
