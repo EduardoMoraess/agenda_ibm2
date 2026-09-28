@@ -7,33 +7,34 @@ import InfoSection from './components/InfoSection';
 function App() {
   // Dados da Agenda
   const agendaData = [
-    { dataDay: "terca", hora: "19:30h", dia: "Terça-feira", titulo: "Estudo: Mis. Jailda", diretor: "Mazinha" },
-    { dataDay: "quarta", hora: "15:30h", dia: "Quarta-feira", titulo: "🙏 Culto de Oração", diretor: "Dalvinha" },
-    { dataDay: "quinta", hora: "19:00h", dia: "Quinta-feira", titulo: "Último ensaio com os minist. Masculino Feminino para o aniversário" },
-    { dataDay: "sexta", hora: "19:30h", dia: "Sexta-feira", titulo: "Culto de Oração", diretor:" Isabele", louvor: "Zenaide e Leticia" },
-    { dataDay: "sabado", hora: "19:30h", dia: "Sábado", titulo:"Culto de aniversário no terreno da igreja na praça Ipês ",mensagem:"Pr. Helder", matutino: "6:00h-7:00h  Matutino" },
+    { dataDay: "terca", hora: "19:30h", dia: "Terça-feira", titulo: "Estudo: Mis. Jailda", diretor: "Zenaide" },
+    { dataDay: "quarta", hora: "15:30h", dia: "Quarta-feira", titulo: "🙏 Culto de Oração", diretor: "Mis. Jailda" },
+    { dataDay: "quinta", hora: "19:00h", dia: "Quinta-feira", titulo: "Reunião dos ministérios masc/Fem" },
+    { dataDay: "sexta", hora: "19:30h", dia: "Sexta-feira", titulo: "Culto de Oração", diretor:"Isabele", louvor: "Zenaide e Leticia" },
+    { dataDay: "sabado", hora: "19:00h", dia: "Sábado", titulo:"Aniversário do minist. fem. da Malhada/Juá", matutino: "6:00h-7:00h  Matutino" },
     {
       dataDay: "domingo", hora: "9:00h", dia: "Domingo - Manhã", titulo: "Não Haverá EBD", featured: true,
       extras: [
-        /*{ label: "Dir", valor: "Alex " },
-        { label: "Estudo/Templo", valor: "Junior" },
-        { label: "Discipulado", valor: "Mis. Jailda " }*/
+        //{ label: "Dir", valor: "Alex " },
+        //{ label: "Estudo/Templo", valor: "Junior" },
+        //{ label: "Discipulado", valor: "Mis. Jailda " },
+        {label: "Ceia do Senhor na Sede"}
       ]
     },
     {
-      dataDay: "domingo-noite", hora: "19:00h", dia: "Domingo - Noite", titulo: "Culto de Aniversário", featured: true,
+      dataDay: "domingo-noite", hora: "19:00h", dia: "Domingo - Noite", titulo: "Culto de Celebração", featured: true,
       extras: [
-        { label: "Dir", valor: "Aninha" },
-        { label: "Mensagem", valor: "Mis. João Neto" }
+        { label: "Dir", valor: "Ministerio/Louvor" },
+        { label: "Mensagem", valor: "Mis. Jailda" }
       ]
     },
   ]
 
   const aniversariantes = [
     // Dias dos aniversarios das pessoas da igreja
-    { destaque: "01", texto: "Ivone" },
-    { destaque: "13", texto: "Isaac" },
-    { destaque: "14", texto: "Dc° Graça" },
+    { destaque: "04", texto: "Jacileide e Késia" },
+    { destaque: "05", texto: "Junior Nunes" },
+    { destaque: "24", texto: "Aninha" },
   ];
 
   const pedidosOracao = [
@@ -55,7 +56,7 @@ function App() {
         </div>
         <h1>IBM do Ipsep</h1>
         <p className="subtitle">Agenda Semanal</p>
-        <div className="date-badge">21/09 a 27/09</div>
+        <div className="date-badge">28/09 a 04/10</div>
       </header>
 
       <main className="container">
@@ -67,7 +68,7 @@ function App() {
       </main>
 
       <InfoSection
-        titulo="Aniversariantes do Mês de Setembro"
+        titulo="Aniversariantes do Mês de Outubro"
         icone="🎂"
         itens={aniversariantes}
       />
