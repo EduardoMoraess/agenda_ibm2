@@ -13,7 +13,7 @@ function App() {
     { dataDay: "sexta", hora: "19:30h", dia: "Sexta-feira", titulo: "Culto de Oração", diretor:" Dc° Márcio", louvor: "Zenaide" },
     { dataDay: "sabado", hora: "19:30h", dia: "Sábado", titulo:"Culto Jovem", matutino: "6:00h-7:00h  Matutino" },
     {
-      dataDay: "domingo", hora: "9:00h", dia: "Domingo - Manhã", titulo: "Não Haverá EBD", featured: true,
+      dataDay: "domingo", hora: "9:00h", dia: "Domingo - Manhã", titulo: "EBD", featured: true,
       extras: [
         { label: "Dir", valor: "Alex " },
         { label: "Estudo/Templo", valor: "Junior N." },
