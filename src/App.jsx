@@ -7,25 +7,24 @@ import InfoSection from './components/InfoSection';
 function App() {
   // Dados da Agenda
   const agendaData = [
-    { dataDay: "terca", hora: "19:30h", dia: "Terça-feira", titulo: "Estudo: Mis. Jailda", diretor: "Zenaide" },
-    { dataDay: "quarta", hora: "15:30h", dia: "Quarta-feira", titulo: "🙏 Culto de Oração", diretor: "Mis. Jailda" },
-    { dataDay: "quinta", hora: "19:00h", dia: "Quinta-feira", titulo: "Reunião dos ministérios masc/Fem" },
-    { dataDay: "sexta", hora: "19:30h", dia: "Sexta-feira", titulo: "Culto de Oração", diretor:"Isabele", louvor: "Zenaide e Leticia" },
-    { dataDay: "sabado", hora: "19:00h", dia: "Sábado", titulo:"Aniversário do minist. fem. da Malhada/Juá", matutino: "6:00h-7:00h  Matutino" },
+    { dataDay: "terca", hora: "19:30h", dia: "Terça-feira", estudo:"Dc° Eraldo", diretor: "Francisca" },
+    { dataDay: "quarta", hora: "15:30h", dia: "Quarta-feira", titulo: "🙏 Culto de Oração", diretor: "Dalvinha" },
+    { dataDay: "quinta", hora: "19:00h", dia: "Quinta-feira", titulo: "Reunião dos ministérios Masc/Fem" },
+    { dataDay: "sexta", hora: "19:30h", dia: "Sexta-feira", titulo: "Culto de Oração", diretor:" Dc° Márcio", louvor: "Zenaide" },
+    { dataDay: "sabado", hora: "19:30h", dia: "Sábado", titulo:"Culto Jovem", matutino: "6:00h-7:00h  Matutino" },
     {
       dataDay: "domingo", hora: "9:00h", dia: "Domingo - Manhã", titulo: "Não Haverá EBD", featured: true,
       extras: [
-        //{ label: "Dir", valor: "Alex " },
-        //{ label: "Estudo/Templo", valor: "Junior" },
-        //{ label: "Discipulado", valor: "Mis. Jailda " },
-        {label: "Ceia do Senhor na Sede"}
+        { label: "Dir", valor: "Alex " },
+        { label: "Estudo/Templo", valor: "Junior N." },
+        { label: "Discipulado", valor: "Dc° Márcio" },
       ]
     },
     {
       dataDay: "domingo-noite", hora: "19:00h", dia: "Domingo - Noite", titulo: "Culto de Celebração", featured: true,
       extras: [
-        { label: "Dir", valor: "Ministerio/Louvor" },
-        { label: "Mensagem", valor: "Mis. Jailda" }
+        { label: "Dir", valor: " Ministério Feminino" },
+        { label: "Mensagem", valor: "Dc° Eraldo" }
       ]
     },
   ]
