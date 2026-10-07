@@ -33,6 +33,7 @@ function App() {
     // Dias dos aniversarios das pessoas da igreja
     { destaque: "04", texto: "Jacileide e Késia" },
     { destaque: "05", texto: "Junior Nunes" },
+    { destaque: "09", texto: "Ayane e Sandro" },
     { destaque: "24", texto: "Aninha" },
   ];
 
