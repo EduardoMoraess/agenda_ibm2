@@ -56,7 +56,7 @@ function App() {
         </div>
         <h1>IBM do Ipsep</h1>
         <p className="subtitle">Agenda Semanal</p>
-        <div className="date-badge">28/09 a 04/10</div>
+        <div className="date-badge">12/10 a 18/10</div>
       </header>
 
       <main className="container">
