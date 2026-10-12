@@ -21,11 +21,11 @@ const AgendaCard = ({ dia, hora, titulo, diretor, extras, featured, dataDay,louv
                 )}
 
                 {horario2 && (
-                  <p><strong>17:00H:</strong></p>
+                  <p><strong>17:00H:</strong>{horario2}</p>
                 )}
 
                 {aviso && (
-                  <p><strong>Pais</strong></p>
+                  <p><strong>Pais</strong>{aviso}</p>
                 )}
 
                 {/* Mapeia detalhes extras (como os de domingo) caso existam */}
