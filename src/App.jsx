@@ -7,24 +7,24 @@ import InfoSection from './components/InfoSection';
 function App() {
   // Dados da Agenda
   const agendaData = [
-    { dataDay: "terca", hora: "19:30h", dia: "Terça-feira", estudo:"Dc° Eraldo", diretor: "Francisca" },
-    { dataDay: "quarta", hora: "15:30h", dia: "Quarta-feira", titulo: "🙏 Culto de Oração", diretor: "Dalvinha" },
-    { dataDay: "quinta", hora: "19:00h", dia: "Quinta-feira", titulo: "Reunião dos ministérios Masc/Fem" },
-    { dataDay: "sexta", hora: "19:30h", dia: "Sexta-feira", titulo: "Culto de Oração", diretor:" Dc° Márcio", louvor: "Zenaide" },
-    { dataDay: "sabado", hora: "19:30h", dia: "Sábado", titulo:"Culto Jovem", matutino: "6:00h-7:00h  Matutino" },
+    { dataDay: "terca", hora: "19:30h", dia: "Terça-feira", estudo:"Mis. Jailda", diretor: "Zenaide" },
+    { dataDay: "quarta", hora: "15:30h", dia: "Quarta-feira", titulo: "🙏 Culto de Oração", diretor: "Mis.Jailda" },
+    { dataDay: "quinta", hora: "19:00h", dia: "Quinta-feira", titulo: "Reunião dos ministérios Masc/Fem", horario2:"Reunião com os diáconos no Templo"},
+    { dataDay: "sexta", hora: "19:30h", dia: "Sexta-feira", titulo: "Culto de Oração", diretor:"Isabele", louvor: "Zenaide" },
+    { dataDay: "sabado", hora: "14:30h", dia: "Sábado", titulo:"Programação com as crianças da igreja no templo",aviso:"tragam seus filhos", matutino: "6:00h-7:00h  Matutino" },
     {
       dataDay: "domingo", hora: "9:00h", dia: "Domingo - Manhã", titulo: "EBD", featured: true,
       extras: [
-        { label: "Dir", valor: "Alex " },
+        { label: "Dir", valor: "Dalvinha" },
         { label: "Estudo/Templo", valor: "Junior N." },
-        { label: "Discipulado", valor: "Dc° Márcio" },
+        { label: "Discipulado", valor: "Mis.Jailda" },
       ]
     },
     {
       dataDay: "domingo-noite", hora: "19:00h", dia: "Domingo - Noite", titulo: "Culto de Celebração", featured: true,
       extras: [
-        { label: "Dir", valor: " Ministério Feminino" },
-        { label: "Mensagem", valor: "Dc° Eraldo" }
+        { label: "Dir", valor: " Ministério Masculino" },
+        { label: "Mensagem", valor: "Mis.Jailda" }
       ]
     },
   ]
