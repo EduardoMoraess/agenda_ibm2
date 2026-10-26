@@ -7,11 +7,11 @@ import InfoSection from './components/InfoSection';
 function App() {
   // Dados da Agenda
   const agendaData = [
-    { dataDay: "terca", hora: "19:30h", dia: "Terça-feira", estudo:"Mis. Jailda", diretor: "Mazinha" },
-    { dataDay: "quarta", hora: "15:30h", dia: "Quarta-feira", titulo: "🙏 Culto de Oração", diretor: "Dalvinha" },
+    { dataDay: "terca", hora: "19:30h", dia: "Terça-feira", estudo:"Mis. Jailda", diretor: "Francisca" },
+    { dataDay: "quarta", hora: "15:30h", dia: "Quarta-feira", titulo: "🙏 Culto de Oração", diretor: "Mis.Jailda" },
     { dataDay: "quinta", hora: "19:00h", dia: "Quinta-feira", titulo: "Reunião dos ministérios Masc/Fem"},
-    { dataDay: "sexta", hora: "19:30h", dia: "Sexta-feira", titulo: "Culto de Oração", diretor:"Dc° Márcio", louvor: "Zenaide" },
-    { dataDay: "sabado", hora: "19:30h", dia: "Sábado", titulo:"Congresso das Mulhres na Sede", matutino: "6:00h-7:00h  Matutino" },
+    { dataDay: "sexta", hora: "19:30h", dia: "Sexta-feira", titulo: "Culto de Oração", diretor:"Isabele", louvor: "Zenaide" },
+    { dataDay: "sabado", hora: "19:30h", dia: "Sábado", titulo:"Evento da Reforma Protestante", matutino: "6:00h-7:00h  Matutino" },
     {
       dataDay: "domingo", hora: "9:00h", dia: "Domingo - Manhã", titulo: "EBD", featured: true,
       extras: [
@@ -23,8 +23,8 @@ function App() {
     {
       dataDay: "domingo-noite", hora: "19:00h", dia: "Domingo - Noite", titulo: "Culto de Celebração", featured: true,
       extras: [
-        { label: "Dir", valor: " Ministério/Jovem" },
-        { label: "Mensagem", valor: "Eraldo" }
+        { label: "Dir", valor: " Ministério/Evangelismo" },
+        { label: "Mensagem", valor: "Mis. Jailda" }
       ]
     },
   ]
@@ -56,7 +56,7 @@ function App() {
         </div>
         <h1>IBM do Ipsep</h1>
         <p className="subtitle">Agenda Semanal</p>
-        <div className="date-badge">19/10 a 25/10</div>
+        <div className="date-badge">26/10 a 01/10</div>
       </header>
 
       <main className="container">
