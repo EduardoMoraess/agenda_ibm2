@@ -1,33 +1,61 @@
-const AgendaCard = ({ dia, hora, titulo, diretor, extras, featured, dataDay,louvor, matutino, estudo, evento}) => {
+
+const AgendaCard = ({
+    dia,
+    hora,
+    titulo,
+    diretor,
+    extras,
+    featured,
+    dataDay,
+    louvor,
+    matutino,
+    estudo,
+    evento
+}) => {
     return (
-        <section className={`card ${featured ? 'featured' : ''}`} data-day={dataDay}>
+        <section
+            className={`card ${featured ? 'featured' : ''}`}
+            data-day={dataDay}
+        >
             <div className="card-time">{hora}</div>
 
             <div className="card-content">
                 <h2>{dia}</h2>
-                <h3>{titulo}</h3>
 
-                {matutino &&(
-                    <p>Matutino: <strong>{matutino}</strong></p>
+                {titulo && <h3>{titulo}</h3>}
+
+                {matutino && (
+                    <p>
+                        Matutino: <strong>{matutino}</strong>
+                    </p>
                 )}
 
                 {diretor && (
-                    <p><strong>Dir.</strong> {diretor}</p>
+                    <p>
+                        <strong>Dir.:</strong> {diretor}
+                    </p>
                 )}
+
                 {louvor && (
-                    <p><strong>Louvor:</strong>{louvor}</p>
+                    <p>
+                        <strong>Louvor:</strong> {louvor}
+                    </p>
                 )}
 
                 {estudo && (
-                  <p><strong>Estudo:</strong>{estudo}</p>
+                    <p>
+                        <strong>Estudo:</strong> {estudo}
+                    </p>
                 )}
 
                 {evento && (
-                    <p>Evento: <strong>{evento}</strong></p>
+                    <p>
+                        <strong>Evento:</strong> {evento}
+                    </p>
                 )}
 
-                {/* Mapeia detalhes extras (como os de domingo) caso existam */}
-                {extras && extras.map((item, index) => (
+                {/* Detalhes extras, como os da programação de domingo */}
+                {extras?.map((item, index) => (
                     <p key={index}>
                         <strong>{item.label}:</strong> {item.valor}
                     </p>
