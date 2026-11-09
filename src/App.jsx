@@ -13,7 +13,7 @@ function App() {
     { dataDay: "sexta", hora: "19:30h", dia: "Sexta-feira", titulo: "Culto de Oração", diretor:"Isabele", louvor: "Zenaide" },
     { dataDay: "sabado", hora: "19:30h", dia: "Sábado", titulo:"Culto Jovem", matutino: "6:00h-7:00h  Matutino" },
     { dataDay: "sexta", hora: "19:30h", dia: "Sexta-feira", titulo: "Culto de Oração", diretor:"Dc° Márcio", louvor: "Zenaide" },
-    { dataDay: "sabado", hora: "19:30h", dia: "Sábado", titulo:"Culto Jovem",evento:"Aniversario da IBM Vila Bela", matutino: "6:00h-7:00h" },
+    { dataDay: "sabado", hora: "19:30h", dia: "Sábado", titulo:"Culto Jovem",matutino: "6:00h-7:00h", evento:"Aniversario da IBM Vila Bela" },
     {
       dataDay: "domingo", hora: "9:00h", dia: "Domingo - Manhã", titulo: "EBD", featured: true,
       extras: [
