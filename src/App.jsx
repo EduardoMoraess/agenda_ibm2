@@ -10,8 +10,13 @@ function App() {
     { dataDay: "terca", hora: "19:30h", dia: "Terça-feira", estudo:"Mis. Jailda", diretor: "Francisca" },
     { dataDay: "quarta", hora: "15:30h", dia: "Quarta-feira", titulo: "🙏 Culto de Oração", diretor: "Dalvinha" },
     { dataDay: "quinta", hora: "19:00h", dia: "Quinta-feira", titulo: "Reunião dos ministérios Masc/Fem"},
+<<<<<<< HEAD
     { dataDay: "sexta", hora: "19:30h", dia: "Sexta-feira", titulo: "Culto de Oração", diretor:"Isabele", louvor: "Zenaide" },
     { dataDay: "sabado", hora: "19:30h", dia: "Sábado", titulo:"Culto Jovem", matutino: "6:00h-7:00h  Matutino" },
+=======
+    { dataDay: "sexta", hora: "19:30h", dia: "Sexta-feira", titulo: "Culto de Oração", diretor:"Dc° Márcio", louvor: "Zenaide" },
+    { dataDay: "sabado", hora: "19:30h", dia: "Sábado", titulo:"Culto Jovem",evento:"Aniversario da IBM Vila Bela", matutino: "6:00h-7:00h" },
+>>>>>>> 71c11c4 (alguns ajustes foram feitos)
     {
       dataDay: "domingo", hora: "9:00h", dia: "Domingo - Manhã", titulo: "EBD", featured: true,
       extras: [
