@@ -12,7 +12,6 @@ function App() {
     { dataDay: "quinta", hora: "19:00h", dia: "Quinta-feira", titulo: "Reunião dos ministérios Masc/Fem"},
     { dataDay: "sexta", hora: "19:30h", dia: "Sexta-feira", titulo: "Culto de Oração", diretor:"Mis.Jailda", louvor: "Zenaide" },
     { dataDay: "sabado", hora: "19:30h", dia: "Sábado", titulo:"Culto Jovem", matutino: "6:00h-7:00h  Matutino" },
-    { dataDay: "sabado", hora: "19:30h", dia: "Sábado", titulo:"Culto Jovem",matutino: "6:00h-7:00h",  },
     {
       dataDay: "domingo", hora: "9:00h", dia: "Domingo - Manhã", titulo: "EBD", featured: true,
       extras: [
