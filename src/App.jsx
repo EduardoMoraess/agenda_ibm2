@@ -7,26 +7,25 @@ import InfoSection from './components/InfoSection';
 function App() {
   // Dados da Agenda
   const agendaData = [
-    { dataDay: "terca", hora: "19:30h", dia: "Terça-feira", estudo:"Mis. Jailda", diretor: "Francisca" },
-    { dataDay: "quarta", hora: "15:30h", dia: "Quarta-feira", titulo: "🙏 Culto de Oração", diretor: "Dalvinha" },
+    { dataDay: "terca", hora: "19:30h", dia: "Terça-feira", estudo:"Mis. Jailda", diretor: "Maria Costa" },
+    { dataDay: "quarta", hora: "15:30h", dia: "Quarta-feira", titulo: "🙏 Culto de Oração", diretor: "Mis. Jailda" },
     { dataDay: "quinta", hora: "19:00h", dia: "Quinta-feira", titulo: "Reunião dos ministérios Masc/Fem"},
-    { dataDay: "sexta", hora: "19:30h", dia: "Sexta-feira", titulo: "Culto de Oração", diretor:"Isabele", louvor: "Zenaide" },
+    { dataDay: "sexta", hora: "19:30h", dia: "Sexta-feira", titulo: "Culto de Oração", diretor:"Mis.Jailda", louvor: "Zenaide" },
     { dataDay: "sabado", hora: "19:30h", dia: "Sábado", titulo:"Culto Jovem", matutino: "6:00h-7:00h  Matutino" },
-    { dataDay: "sexta", hora: "19:30h", dia: "Sexta-feira", titulo: "Culto de Oração", diretor:"Dc° Márcio", louvor: "Zenaide" },
-    { dataDay: "sabado", hora: "19:30h", dia: "Sábado", titulo:"Culto Jovem",matutino: "6:00h-7:00h", evento:"Aniversario da IBM Vila Bela" },
+    { dataDay: "sabado", hora: "19:30h", dia: "Sábado", titulo:"Culto Jovem",matutino: "6:00h-7:00h",  },
     {
       dataDay: "domingo", hora: "9:00h", dia: "Domingo - Manhã", titulo: "EBD", featured: true,
       extras: [
         { label: "Dir", valor: "Zenaide" },
-        { label: "Estudo/Templo", valor: "Mais.Jailda" },
-        { label: "Discipulado", valor: "Dcº Marcio" },
+        { label: "Estudo/Templo", valor: "Junior.N" },
+        { label: "Discipulado", valor: "Mis.Jailda" },
       ]
     },
     {
       dataDay: "domingo-noite", hora: "19:00h", dia: "Domingo - Noite", titulo: "Culto de Celebração", featured: true,
       extras: [
-        { label: "Dir", valor: "Minist.Louvor" },
-        { label: "Mensagem", valor: "Seminarista Joseildo" }
+        { label: "Dir", valor: "Minist/Jovem" },
+        { label: "Mensagem", valor: "Mis.Jailda" }
       ]
     },
   ]
@@ -56,7 +55,7 @@ function App() {
         </div>
         <h1>IBM do Ipsep</h1>
         <p className="subtitle">Agenda Semanal</p>
-        <div className="date-badge">09/11 a 15/11</div>
+        <div className="date-badge">16/11 a 22/11</div>
       </header>
 
       <main className="container">
