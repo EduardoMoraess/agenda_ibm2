@@ -15,7 +15,7 @@ function App() {
     {
       dataDay: "domingo", hora: "9:00h", dia: "Domingo - Manhã", titulo: "EBD", featured: true,
       extras: [
-        { label: "Dir", valor: "Zenaide" },
+        { label: "Dir", valor: "Dalvinha" },
         { label: "Estudo/Templo", valor: "Junior.N" },
         { label: "Discipulado", valor: "Mis.Jailda" },
       ]
