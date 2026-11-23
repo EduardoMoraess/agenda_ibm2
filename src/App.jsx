@@ -7,10 +7,10 @@ import InfoSection from './components/InfoSection';
 function App() {
   // Dados da Agenda
   const agendaData = [
-    { dataDay: "terca", hora: "19:30h", dia: "Terça-feira", estudo:"Mis. Jailda", diretor: "Maria Costa" },
-    { dataDay: "quarta", hora: "15:30h", dia: "Quarta-feira", titulo: "🙏 Culto de Oração", diretor: "Mis. Jailda" },
+    { dataDay: "terca", hora: "19:30h", dia: "Terça-feira", estudo:"Mis. Jailda", diretor: "Francisca" },
+    { dataDay: "quarta", hora: "15:30h", dia: "Quarta-feira", titulo: "🙏 Culto de Oração", diretor: "Dalvinha" },
     { dataDay: "quinta", hora: "19:00h", dia: "Quinta-feira", titulo: "Reunião dos ministérios Masc/Fem"},
-    { dataDay: "sexta", hora: "19:30h", dia: "Sexta-feira", titulo: "Culto de Oração", diretor:"Mis.Jailda", louvor: "Zenaide" },
+    { dataDay: "sexta", hora: "19:30h", dia: "Sexta-feira", titulo: "Culto de Oração", diretor:"Isabele", louvor: "Zenaide" },
     { dataDay: "sabado", hora: "19:30h", dia: "Sábado", titulo:"Culto Jovem", matutino: "6:00h-7:00h  Matutino" },
     {
       dataDay: "domingo", hora: "9:00h", dia: "Domingo - Manhã", titulo: "EBD", featured: true,
@@ -23,8 +23,8 @@ function App() {
     {
       dataDay: "domingo-noite", hora: "19:00h", dia: "Domingo - Noite", titulo: "Culto de Celebração", featured: true,
       extras: [
-        { label: "Dir", valor: "Minist/Jovem" },
-        { label: "Mensagem", valor: "Mis.Jailda" }
+        { label: "Dir", valor: "Minist/Masculino" },
+        { label: "Mensagem", valor: " Obreiro Jorge" }
       ]
     },
   ]
@@ -54,7 +54,7 @@ function App() {
         </div>
         <h1>IBM do Ipsep</h1>
         <p className="subtitle">Agenda Semanal</p>
-        <div className="date-badge">16/11 a 22/11</div>
+        <div className="date-badge">23/11 a 29/11</div>
       </header>
 
       <main className="container">
